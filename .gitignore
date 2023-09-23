@@ -1,0 +1,36 @@
+logs/
+tmp/
+
+# Byte-compiled / optimized files
+*.py[cod]
+__pycache__/
+*.py[co]
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependency management
+pip-lock.txt
