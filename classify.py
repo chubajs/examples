@@ -3,7 +3,7 @@ import os
 import logging
 import json
 import openai
-from easygpt import EasyGPT
+from easygpt import EasyGPT # https://github.com/chubajs/easygpt
 
 logging.basicConfig(filename="logs/classify.log", level=logging.INFO, format="%(asctime)s: %(levelname)s: %(message)s")
 logging.info("Starting classify.py")
